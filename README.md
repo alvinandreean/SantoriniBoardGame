@@ -1,5 +1,5 @@
-# Santorini Game FIT3077 - Sprint 3
-## Alvin Andrean - 33279071
+# Santorini Game
+## Alvin Andrean 
 
 An implementation of the board game Santorini using Python and Pygame with an object-oriented architecture. 
 
@@ -10,25 +10,13 @@ An implementation of the board game Santorini using Python and Pygame with an ob
 - **God Cards**: Special abilities including Artemis, Demeter, and Triton
 - **Timer System**: Configurable turn timers
 
-## Installation
-1. Clone the repository
-2. Navigate to `Sprint 3/prototype/`
-3. Install dependencies: `pip install pygame`
-4. Run the game: `python application.py`
 
-### Creating an Executable
-```bash
-cd "Sprint 3/prototype"
-pip install pyinstaller
-pyinstaller --onefile --add-data "assets;assets" --noconsole --name "Santorini" application.py
-```
 
 ## 📁 Project Structure
 
 ### Root Directory
 ```
-Sprint 3/
-├── prototype/          # Main game implementation
+├── game/          # Main game implementation
 ├── document/          # UML diagrams and documentation
 └── README.md         # This file
 ```
@@ -44,7 +32,7 @@ document/
 
 ### Main Application
 ```
-prototype/
+game/
 ├── application.py     # Main application entry point and game loop
 └── .gitignore        # Git ignore configuration
 ```
