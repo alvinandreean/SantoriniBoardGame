@@ -1,0 +1,9 @@
+Instructions to making an executable 
+
+In your terminal type
+1) cd path/to/prototype\charlene.py
+2) pip install pyinstaller
+3) pyinstaller --onefile --windowed file_name.py
+
+
+Executable file should be in the dist folder

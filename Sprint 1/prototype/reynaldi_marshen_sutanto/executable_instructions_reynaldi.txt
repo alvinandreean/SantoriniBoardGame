@@ -1,0 +1,19 @@
+HOW TO CREATE AN EXECUTABLE
+
+
+PRE-REQ:
+
+- Make Sure Python is installed
+- .py file exists
+
+
+STEP 1:
+In the terminal type "cd path/to/file_name.py" (e.g., prototype\reynaldi_marshen_sutanto)
+
+STEP 2: Install the required package
+In the terminal type "pip install pyinstaller"
+
+STEP 3: Create the EXECUTABLE
+In the terminal type "pyinstaller --onefile --windowed file_name.py"
+
+STEP 4: Find the executable file in the "dist" folder 
